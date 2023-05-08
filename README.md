@@ -4,16 +4,16 @@ The purpose of this file is to highlight some of the core capabilities of a Soli
 
 ## Description
 
-The contract highlights the following functionality
-1 Public variables that store the details about the coin (Token Name, Token Abbrv., Total Supply)
-2 Contract will have a mapping of addresses to balances (address => uint)
+The contract highlights the following functionality  
+1 Public variables that store the details about the coin (Token Name, Token Abbrv., Total Supply)  
+2 Contract will have a mapping of addresses to balances (address => uint)  
 3 A mint function that takes two parameters: an address and a value. The function then increases the 
-  total supply by that number and increases the balance of the “sender” address by that amount
+  total supply by that number and increases the balance of the “sender” address by that amount  
 4 Contract will have a burn function, which works the opposite of the mint function, as it will destroy tokens. It 
   will take an address and value just like the mint functions. It will then deduct the value from the total supply 
-  and from the balance of the “sender”.
+  and from the balance of the “sender”.  
 5 Lastly, your burn function should have conditionals to make sure the balance of "sender" is greater than or equal to the #
-  amount that is supposed to be burned.
+  amount that is supposed to be burned.  
 
 ## Getting Started
 
